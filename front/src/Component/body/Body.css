@@ -1,0 +1,20 @@
+.body__continer {
+  margin: 0rem 7rem 0rem 7rem;
+  position: relative;
+  border-radius: 20rem;
+  display: flex;
+  margin: 0;
+  /* flex-direction: column; */
+}
+.body__result-continer {
+  flex: 30%;
+  /* width: 100%; */
+  border-radius: 0rem 0rem 0rem 0rem;
+  background-color: aliceblue;
+}
+.body__recipe-continer {
+  flex: 70%;
+  /* width: 100%; */
+  border-radius: 0rem 0rem 0rem 0rem;
+  background-color: rgb(231, 239, 245);
+}

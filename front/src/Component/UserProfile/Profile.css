@@ -1,0 +1,210 @@
+.profile-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-info {
+  margin-top: 2rem;
+  width: 60%;
+}
+
+.profile-info .user-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-info .user-recipes {
+  margin-top: 2rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.user-recipes ul {
+  column-count: 2;
+  column-gap: 10rem;
+  text-align: left;
+}
+
+.profile-info .user-recipes ul {
+  margin: 1rem 2rem;
+}
+
+.profile-statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  padding: 2rem;
+}
+
+.profile-bookmarks {
+  margin-top: 2rem;
+  width: 50%;
+}
+
+.profile-button {
+  width: 100%;
+  height: 0;
+  z-index: 1;
+}
+
+.profile-img {
+  width: 100%;
+  display: block;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.profile-title {
+  position: relative;
+  transform: translateY(-50%) skewY(-5deg);
+  color: #fff;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  box-decoration-break: clone;
+  padding: 1.3rem;
+  background: #ffdf59;
+}
+
+.profile-subtitle {
+  display: inline-block;
+  font-size: 2rem;
+  font-family: "Lato";
+  text-align: center;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+  background-image: linear-gradient(to right bottom, #e9d5cd, #ffa751);
+}
+
+.book-li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.book-li a {
+  color: black;
+  text-decoration: none;
+}
+
+.book-li a:hover {
+  text-decoration: underline;
+}
+
+.book-btn {
+  width: auto;
+  padding: 0.5rem 1rem;
+}
+
+.text-space {
+  margin: 1rem;
+}
+
+.searchBookmark-container {
+  transform: translateX(105px);
+  display: flex;
+  align-items: center;
+  z-index: 11;
+}
+
+.searchBookmark {
+  padding: 0 1rem;
+  color: inherit;
+  width: 26rem;
+  height: 5rem;
+  border: none;
+  font-size: 1.2rem;
+  text-align: left;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 0% 35% 25% 0%;
+}
+
+.searchBookmark:focus {
+  box-shadow: 0 1px 10px rgba(0, 170, 255, 0.45);
+}
+
+.searchBookmark-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  height: 5rem;
+  width: 13rem;
+  color: black;
+  cursor: pointer;
+  background-image: linear-gradient(to bottom right, #ffe259, #ffa751);
+  border-radius: 4rem;
+  border: none;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+  right: 7rem;
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Lato";
+}
+
+.growBookmark:hover {
+  transform: scale(1.05);
+}
+
+
+.searchBookmark-toggle {
+  height: 5rem;
+  width: 6rem;
+  border-radius: 50% 0 0 50%;
+  border: none;
+  background-image: linear-gradient(to bottom right, #ffe259, #ffa751);
+  cursor: pointer;
+  padding: 0.3rem 0 0 0.5rem;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+  right: 45rem;
+  position: relative;
+}
+
+.grow:hover {
+  transform: scale(1.05);
+}
+
+.filterBookmark-container {
+  position: absolute;
+  background: #f9f5f3;
+  top: 2.5em;
+  right: 5.5em;
+  width: 47rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  z-index: 11;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.searchUsers {
+  padding: 0 1rem;
+  color: inherit;
+  width: 26rem;
+  height: 5rem;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  text-align: left;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 3rem;
+}
+
+.space {
+  margin-top: 25px;
+}

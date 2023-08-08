@@ -1,0 +1,9 @@
+.recipe__ingredient {
+  display: flex;
+  margin-bottom: 0.8rem;
+}
+
+.ingredient__quantity {
+  margin-right: 0.3rem;
+  margin-left: 1rem;
+}

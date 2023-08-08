@@ -1,0 +1,54 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+
+
+# *********************************************************front*****************************************
+# dependencies
+**/node_modules
+/front/node_modules
+/front/.pnp
+/front/.pnp.js
+/front/package-lock.json
+# testing
+/front/coverage
+
+# production
+/front/build
+
+# misc
+/front/.DS_Store
+/front/.env.local
+/front/.env.development.local
+/front/.env.test.local
+/front/.env.production.local
+
+/front/npm-debug.log*
+/front/yarn-debug.log*
+/front/yarn-error.log*
+# *********************************************************front*****************************************
+
+# *********************************************************back*****************************************
+/backend/node_modules
+# dependencies
+/backend/node_modules
+/backend/.pnp
+/backend/.pnp.js
+/backend/package-lock.json
+# testing
+/backend/coverage
+
+# production
+/backend/build
+
+# misc
+/backend/.DS_Store
+/backend/.env.local
+/backend/.env.development.local
+/backend/.env.test.local
+/backend/.env.production.local
+
+/backend/npm-debug.log*
+/backend/yarn-debug.log*
+/backend/yarn-error.log*
+
+# *********************************************************back*****************************************

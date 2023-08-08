@@ -1,0 +1,159 @@
+.recipe {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe__header {
+  position: relative;
+  height: 28rem;
+  transform-origin: top;
+  margin-bottom: 10rem;
+}
+
+.recipe__image {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+}
+
+.recipe__title {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 20%) skewY(-6deg);
+  color: #fff;
+  font-weight: 700;
+  font-size: 3.25rem;
+  text-transform: uppercase;
+  line-height: 1.95;
+  text-align: center;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  padding: 0.5rem 2rem;
+  background-image: linear-gradient(to right bottom, #e6d895, #ffe259);
+}
+.recipe__info-text {
+  color: black;
+  font-size: 2rem;
+  text-shadow: 0.2rem 0.2rem 0.2rem #ffa751;
+  margin-bottom: 1rem;
+}
+.recipe__info-data {
+  margin-left: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.recipe__details {
+  display: flex;
+  justify-content: center;
+  /* gap: 2rem; */
+  margin-bottom: 5rem;
+  flex-direction: row;
+  font-family: "Lato";
+  font-weight: 700;
+  /* margin-left: 3rem; */
+}
+
+.recipe__info {
+  font-size: 1.65rem;
+  text-transform: uppercase;
+  flex: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn--tiny {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.btn--update-servings-plus {
+  margin-left: 1rem;
+}
+.recipe__flex {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.recipe__ingredients {
+  margin-bottom: 3rem;
+  flex: 50%;
+  position: relative;
+}
+
+.heading--2 {
+  font-size: 2rem;
+  font-family: "Lato";
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  width: 25%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0) skewY(0deg);
+  text-align: center;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  padding: 0.5rem 2rem;
+  background-image: linear-gradient(to right bottom, #e9d5cd, #ffa751);
+}
+
+.recipe__description {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 70%;
+  line-height: 2.3rem;
+}
+
+.recipe__description p {
+  position: relative;
+  left: 25%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.recipe__info-data--minutes {
+  margin-left: 1rem;
+}
+
+/* .btn--blue-direction {
+  text-align: center;
+  margin-bottom: 3rem;
+} */
+.recipe__cook {
+  flex: 50%;
+  margin-bottom: 2rem;
+}
+
+.bottons {
+  position: relative;
+  margin: 0 2rem 0 auto;
+  top: -5rem;
+}
+
+.btn--edit,
+.btn--cancel {
+  margin-right: 1rem;
+}
+.recipe__modal-actions {
+  text-align: center;
+}
+
+.edit-from-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.btn--add-ingrediant {
+  width: 15rem;
+}
+
+.btn--submit {
+  margin: 2rem 0;
+}

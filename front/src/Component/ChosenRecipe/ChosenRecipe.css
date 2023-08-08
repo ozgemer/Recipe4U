@@ -1,0 +1,9 @@
+.chosenRecipe-recipes__container {
+    border-radius: 0;
+}
+
+.chosenRecipe-recipes__header {
+    font-size: 3rem;
+    padding-top: 0rem;
+    width: 100%;
+}

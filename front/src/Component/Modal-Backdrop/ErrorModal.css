@@ -1,0 +1,6 @@
+.errorMes {
+  position: absolute;
+  transform: translate(17%, 100%);
+  background-color: white;
+  width: 20%;
+}

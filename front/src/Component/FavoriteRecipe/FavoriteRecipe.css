@@ -1,0 +1,60 @@
+.fav-recipes__container {
+  border-radius: 0;
+}
+.fav-recipes__recipe {
+  margin: 0rem;
+}
+.fav-recipes__header {
+  font-size: 3rem;
+  padding-top: 0rem;
+  width: 100%;
+}
+.fav-recipes__header h2 {
+  position: absolute;
+  /* top: 50%; */
+  width: 100%;
+  left: 50%;
+  background-color: rgba(238, 245, 251, 0.693);
+  padding: 0.5rem;
+  color: #fff;
+  z-index: 10;
+  margin-top: 2rem;
+  /* margin-bottom: 10rem; */
+  transform: translate(-50%, 50%) skewY(-6deg);
+  text-align: center;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  padding: 0.5rem 2rem;
+  background-image: linear-gradient(to right bottom, #e9d5cd, #ed9772);
+}
+
+.carousel-root {
+  display: grid;
+}
+
+.carousel .control-dots {
+  bottom: -8px;
+  color: black;
+}
+
+.carousel .control-dots .dot {
+  background: #ffd381;
+  width: 10px;
+  height: 10px;
+}
+
+.carousel .control-next.control-arrow::before {
+  border-left: 8px solid #ff8000;
+}
+
+.carousel .control-prev.control-arrow:before {
+  border-right: 8px solid #ff8000;
+}
+
+.video {
+  margin-bottom: 2rem;
+  width: 50rem;
+}
+.recipe__title {
+  bottom: -2rem;
+}

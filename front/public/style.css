@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("./Fonts/Lato-Italic.ttf");
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Lato";
+}
+
+body {
+  font-size: 1.5rem;
+  background-image: linear-gradient(to right, #ffe259, #ffa751);
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+.body-container {
+  width: 80%;
+  margin: 5rem auto;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 3rem;
+}

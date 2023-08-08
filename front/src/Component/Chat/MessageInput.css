@@ -1,0 +1,11 @@
+form {
+    /* position: fixed; */
+    max-width: 500px;
+    width: 100%;
+    /* bottom: 0; */
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+}

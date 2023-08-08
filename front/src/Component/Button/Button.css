@@ -1,0 +1,62 @@
+/* .btn--tiny {
+  font-size: 2.5rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--tiny:hover {
+  transform: translateY(-0.4rem);
+  
+  transform: scale(1.3);
+} */
+
+.btn {
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #ffe259, #ffa751);
+  /* background-image: linear-gradient(to right bottom, #e0ffff, #87cefa); */
+  border: none;
+  height: 3.5rem;
+  width: 11rem;
+  border-radius: 20px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  color: black;
+  text-transform: uppercase;
+  font-family: inherit;
+  transition: all 0.2s;
+}
+
+.btn--favoriteRecipe {
+  width: 18rem;
+  height: 4rem;
+  margin-bottom: 5rem;
+}
+
+.btn a,
+.btn a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.btn--blue-close {
+  margin-right: 3rem;
+}
+
+.btn-map {
+  font-size: 2.5rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.bookmark {
+  border: none;
+  size: 5rem;
+  color: rebeccapurple;
+}

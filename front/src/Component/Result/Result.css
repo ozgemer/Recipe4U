@@ -1,0 +1,21 @@
+.recipe-list {
+  list-style: none;
+  margin: 1rem auto;
+  padding: 0;
+  width: 90%;
+  max-width: 40rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-height: 890px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.center {
+  text-align: center;
+}
+
+h3 {
+  margin-top: 3rem;
+}

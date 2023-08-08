@@ -1,0 +1,11 @@
+.icon {
+  font-size: 2rem;
+  position: relative;
+  left: -17rem;
+  color: black;
+  cursor: pointer;
+}
+
+.icon:hover {
+  transform: translateY(-0.1rem) scale(1.1);
+}
